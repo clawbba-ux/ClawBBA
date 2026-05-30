@@ -18,7 +18,7 @@
 
 <!-- Media: hosted on clawbba-ux/ClawBBA main branch -->
 <p align="center">
-  <a href="https://www.clawbba.com/agent/api-keys">
+  <a href="https://www.clawbba.com/">
     <img src="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/main/opencla_clawbba.png" alt="OpenClaw 一键接入 · ClawBBA × OpenClaw · 362+ 顶级大模型" width="480">
   </a>
 </p>
@@ -32,9 +32,8 @@
   <video src="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4" controls width="480"></video>
   <br/>
   <sub>
-    <a href="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4">▶ wechat.mp4</a>
-    ·
-    <a href="https://github.com/clawbba-ux/ClawBBA/blob/main/opencla_clawbba.png">opencla_clawbba.png</a>
+    <a href="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4">▶ 演示视频 wechat.mp4</a>
+    · 点击上方海报 → <a href="https://www.clawbba.com/">clawbba.com</a>
   </sub>
 </p>
 
@@ -53,7 +52,7 @@
 | **Console** | [API Keys & OpenClaw guide](https://www.clawbba.com/agent/api-keys) |
 | **Chat apps** | WebChat, WeChat, Telegram, WhatsApp, Discord, Slack, Feishu, QQ, and [20+ more OpenClaw channels](https://docs.openclaw.ai/channels) |
 | **Demo video** | [wechat.mp4](https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4) — WeChat ClawBot + ClawBBA |
-| **Poster** | [opencla_clawbba.png](https://github.com/clawbba-ux/ClawBBA/blob/main/opencla_clawbba.png) |
+| **Poster** | Click poster → [clawbba.com](https://www.clawbba.com/) · [source file](https://github.com/clawbba-ux/ClawBBA/blob/main/opencla_clawbba.png) |
 
 > **Brand rule:** End users see **ClawBBA** only. The skill wires OpenClaw internally; you never need separate vendor API keys.
 
@@ -300,7 +299,9 @@ Docs: [OpenClaw WeChat channel](https://docs.openclaw.ai/channels/wechat)
 #### Demo · 效果演示
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/main/opencla_clawbba.png" alt="OpenClaw 一键接入 poster" width="320">
+  <a href="https://www.clawbba.com/">
+    <img src="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/main/opencla_clawbba.png" alt="OpenClaw 一键接入 poster" width="320">
+  </a>
   &nbsp;
   <video src="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4" controls width="320"></video>
 </p>
@@ -308,8 +309,8 @@ Docs: [OpenClaw WeChat channel](https://docs.openclaw.ai/channels/wechat)
 | Asset | Link |
 |-------|------|
 | **Video** | https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4 |
-| **Poster (view)** | https://github.com/clawbba-ux/ClawBBA/blob/main/opencla_clawbba.png |
-| **Poster (raw)** | https://raw.githubusercontent.com/clawbba-ux/ClawBBA/main/opencla_clawbba.png |
+| **Poster (click → site)** | https://www.clawbba.com/ |
+| **Poster (source file)** | https://github.com/clawbba-ux/ClawBBA/blob/main/opencla_clawbba.png |
 
 Recording covers: create Key → install → WebChat plugin → WeChat QR bind → chat with ClawBBA models in WeChat.
 
@@ -470,7 +471,7 @@ Full log: [packages/clawbba-api/README.md](../packages/clawbba-api/README.md) (m
 | 计费 | 与网页 Agent 共用 ClawBBA 账户余额 |
 | 聊天渠道 | WebChat、微信、Telegram、WhatsApp、Discord、Slack、飞书、QQ 等 [20+ 通道](https://docs.openclaw.ai/channels) |
 | 演示视频 | [wechat.mp4](https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4) |
-| 介绍海报 | [opencla_clawbba.png](https://github.com/clawbba-ux/ClawBBA/blob/main/opencla_clawbba.png) |
+| 介绍海报 | 点击图片 → [clawbba.com](https://www.clawbba.com/) |
 
 ## 两步接入
 
@@ -557,13 +558,15 @@ npx -y @tencent-weixin/openclaw-weixin-cli@latest install
 **效果演示：**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/main/opencla_clawbba.png" alt="OpenClaw 一键接入" width="300">
+  <a href="https://www.clawbba.com/">
+    <img src="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/main/opencla_clawbba.png" alt="OpenClaw 一键接入" width="300">
+  </a>
   &nbsp;
   <video src="https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4" controls width="300"></video>
 </p>
 
 - 演示视频：[wechat.mp4](https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4)  
-- 介绍海报：[opencla_clawbba.png](https://github.com/clawbba-ux/ClawBBA/blob/main/opencla_clawbba.png)
+- 介绍海报（点击跳转）：[clawbba.com](https://www.clawbba.com/)
 
 ### Telegram（海外最快）
 
@@ -716,7 +719,7 @@ MIT-0 — see [LICENSE](./LICENSE) in this repository (same as [clawbba-api](htt
 | 🦞 ClawHub skill | https://clawhub.ai/clawbba-ux/clawbba-api |
 | 📖 OpenClaw docs | https://docs.openclaw.ai |
 | 🎬 WeChat demo video | https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4 |
-| 🖼 Intro poster | https://github.com/clawbba-ux/ClawBBA/blob/main/opencla_clawbba.png |
+| 🖼 Intro poster (click) | https://www.clawbba.com/ |
 | 💳 Recharge | https://www.clawbba.com/product/CDKEY |
 
 <p align="center">
