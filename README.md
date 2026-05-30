@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.clawbba.com">Website</a> ·
   <a href="https://www.clawbba.com/agent/api-keys">Get API Key</a> ·
-  <a href="https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip">Download Skill v1.5.27</a> ·
+  <a href="https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip">Download Skill v1.5.48</a> ·
   <a href="https://clawhub.ai/clawbba-ux/clawbba-api">ClawHub</a> ·
   <a href="https://docs.openclaw.ai/">OpenClaw Docs</a>
 </p>
@@ -48,7 +48,7 @@
 | **What you get** | Text chat · image generation · video generation · vision · async jobs |
 | **Billing** | One ClawBBA account balance (same as the web Agent) |
 | **Install** | 2 steps: create Key → one-line shell on your OpenClaw host |
-| **Skill package** | [`clawbba-api-1.5.27.zip`](https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip) |
+| **Skill package** | [`clawbba-api-1.5.48.zip`](https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip) |
 | **Console** | [API Keys & OpenClaw guide](https://www.clawbba.com/agent/api-keys) |
 | **Chat apps** | WebChat, WeChat, Telegram, WhatsApp, Discord, Slack, Feishu, QQ, and [20+ more OpenClaw channels](https://docs.openclaw.ai/channels) |
 | **Demo video** | [wechat.mp4](https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4) — WeChat ClawBot + ClawBBA |
@@ -80,7 +80,7 @@ curl -fsSL https://www.clawbba.com/downloads/install-clawbba-api.sh | bash
 
 The script will:
 
-- Download [`clawbba-api-1.5.27.zip`](https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip)
+- Download [`clawbba-api-1.5.48.zip`](https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip)
 - Install to `~/.openclaw/skills/clawbba-api`
 - Validate your Key against `https://www.clawbba.com/api/v1`
 - Merge **362+ models** into `openclaw.json` + `models.json`
@@ -103,11 +103,11 @@ Open a **new WebChat session**, then:
 
 ---
 
-## Install Package: `clawbba-api-1.5.27.zip`
+## Install Package: `clawbba-api-1.5.48.zip`
 
 | Item | Detail |
 |------|--------|
-| **Download** | https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip |
+| **Download** | https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip |
 | **Install script** | https://www.clawbba.com/downloads/install-clawbba-api.sh (default version **1.5.27**) |
 | **Install path** | `~/.openclaw/skills/clawbba-api` (override: `OPENCLAW_SKILL_DIR`) |
 | **License** | MIT-0 |
@@ -117,7 +117,7 @@ Open a **new WebChat session**, then:
 ```bash
 export CLAWBBA_API_KEY='cbb_sk_live_YOUR_FULL_KEY'
 export OPENCLAW_SKILL_DIR="$HOME/.openclaw/skills/clawbba-api"
-unzip clawbba-api-1.5.27.zip -d "$OPENCLAW_SKILL_DIR"
+unzip clawbba-api-1.5.48.zip -d "$OPENCLAW_SKILL_DIR"
 cd "$OPENCLAW_SKILL_DIR"
 ./scripts/verify-key.sh
 ./scripts/one-shot-setup.sh
@@ -467,7 +467,7 @@ Full log: [packages/clawbba-api/README.md](../packages/clawbba-api/README.md) (m
 | 项目 | 说明 |
 |------|------|
 | 控制台 | [API 密钥 · OpenClaw 一键接入](https://www.clawbba.com/agent/api-keys) |
-| 安装包 | [clawbba-api-1.5.27.zip](https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip) |
+| 安装包 | [clawbba-api-1.5.48.zip](https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip) |
 | 计费 | 与网页 Agent 共用 ClawBBA 账户余额 |
 | 聊天渠道 | WebChat、微信、Telegram、WhatsApp、Discord、Slack、飞书、QQ 等 [20+ 通道](https://docs.openclaw.ai/channels) |
 | 演示视频 | [wechat.mp4](https://raw.githubusercontent.com/clawbba-ux/ClawBBA/refs/heads/main/wechat.mp4) |
@@ -582,7 +582,7 @@ npx -y @tencent-weixin/openclaw-weixin-cli@latest install
 
 | 文件 | 地址 |
 |------|------|
-| ZIP | https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip |
+| ZIP | https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip |
 | 安装脚本 | https://www.clawbba.com/downloads/install-clawbba-api.sh |
 | 技能目录 | `~/.openclaw/skills/clawbba-api` |
 
@@ -620,7 +620,7 @@ export CLAWBBA_API_KEY='cbb_sk_live_YOUR_KEY'
 curl -fsSL https://www.clawbba.com/downloads/install-clawbba-api.sh | bash
 ```
 
-パッケージ: [clawbba-api-1.5.27.zip](https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip)
+パッケージ: [clawbba-api-1.5.48.zip](https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip)
 
 ## 使用例
 
@@ -671,7 +671,7 @@ export CLAWBBA_API_KEY='cbb_sk_live_YOUR_KEY'
 curl -fsSL https://www.clawbba.com/downloads/install-clawbba-api.sh | bash
 ```
 
-패키지: [clawbba-api-1.5.27.zip](https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip)
+패키지: [clawbba-api-1.5.48.zip](https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip)
 
 ## IM · 메신저에서 사용
 
@@ -693,7 +693,7 @@ clawbba-api 설치 후 **WebChat / WeChat / Telegram / WhatsApp** 등 OpenClaw �
 |------|-------------|
 | `clawbba-api/` or skill zip | OpenClaw skill — install, patch, references |
 | `docs/` | Platform & integration documentation |
-| Releases | Attach `clawbba-api-x.y.z.zip` or link to clawbba.com/downloads |
+| Releases | Attach `clawbba-api-1.5.48.zip` or link to clawbba.com/downloads |
 
 **Related repositories**
 
@@ -704,7 +704,7 @@ clawbba-api 설치 후 **WebChat / WeChat / Telegram / WhatsApp** 등 OpenClaw �
 
 ## License
 
-MIT-0 — see [LICENSE](./LICENSE) in this repository (same as [clawbba-api](https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip) skill package).
+MIT-0 — see [LICENSE](./LICENSE) in this repository (same as [clawbba-api](https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip) skill package).
 
 ---
 
@@ -714,7 +714,7 @@ MIT-0 — see [LICENSE](./LICENSE) in this repository (same as [clawbba-api](htt
 |----------|-----|
 | 🌐 Website | https://www.clawbba.com |
 | 🔑 API Keys & OpenClaw guide | https://www.clawbba.com/agent/api-keys |
-| 📦 Skill zip v1.5.27 | https://www.clawbba.com/downloads/clawbba-api-1.5.27.zip |
+| 📦 Skill zip v1.5.27 | https://www.clawbba.com/downloads/clawbba-api-1.5.48.zip |
 | 📜 Install script | https://www.clawbba.com/downloads/install-clawbba-api.sh |
 | 🦞 ClawHub skill | https://clawhub.ai/clawbba-ux/clawbba-api |
 | 📖 OpenClaw docs | https://docs.openclaw.ai |
